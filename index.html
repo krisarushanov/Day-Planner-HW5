@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script src="https://momentjs.com/downloads/moment.js" ></script>
+    
+    <link rel="stylesheet" href="Assets/styles.css"></link>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Day Scheduler</title>
+</head>
+
+<body>
+    <div class="jumbotron border-bottom  jumbotron-fluid headerDiv">
+        <div class="container text-center  ">
+            <h1 class="display-4">DO SOMETHING AWESOME </h1>
+            <p class="lead">Today' Agenda</p>
+            <p class="lead todaysDate"></p>
+        </div>
+    </div>
+
+
+    <div class="container text-right  plannerDiv" id="plannerDiv"> 
+        <div class="row row9 ">
+
+            <div class="  input-container input-group col-1 ">
+                <p class="border-bottom">9am</p>
+
+            </div>
+
+
+            <div class="input-group  col-10 form-group">
+                <textarea id=9AM class="form-control custom-control textborder" rows="2" style="resize:none"
+                    name="input9AM"></textarea>
+
+                <button class="col-1 btn"> 
+                  <span  id="renderInput" style="font-size: 2.5em; color:#fcddb6"><i class="far fa-list-alt"></i>
+                    </span>SAVE</button>
+
+            </div>
+        </div>
+
+
+        <div class="row row10 ">
+
+            <div class="input-group input-container  col-1">
+                <p class="border-bottom">10am</p>
+
+            </div>
+            <div class="input-group col-10 form-group">
+                <textarea id=input10AM class="form-control custom-control textborder" rows="2" style="resize:none"
+                    name="10"></textarea>
+
+                <button class="col-1 btn  "> <span style="font-size: 2.5em; color: #fcddb6 "><i class="far fa-list-alt"></i>
+                    </span>SAVE</button>
+            </div>
+        </div>
+
+
+        <div class="row  row11  ">
+
+            <div class="  input-group  col-1">
+                <p class="border-bottom">11am</p>
+
+            </div>
+            <div class="input-group col-10 form-group">
+                <textarea id=input11AM class="form-control custom-control textborder" rows="2" style="resize:none"
+                    name="11"></textarea>
+                <button class="  col-1 
+                    btn  "> <span style="font-size: 2.5em; color: #fcddb6 "><i class="far fa-list-alt"></i>
+                    </span>SAVE</button>
+            </div>
+        </div>
+
+
+        <div class="row row12  ">
+
+            <div class="  input-group  col-1">
+                <p class="border-bottom">12pm</p>
+
+            </div>
+            <div class="input-group col-10 form-group">
+                <textarea id=input12PM class="form-control custom-control textborder" rows="2" style="resize:none"
+                    name="12"></textarea>
+                <button class="  col-1 
+                    btn  "> <span style="font-size: 2.5em; color: #fcddb6 "><i class="far fa-list-alt"></i>
+                    </span>SAVE</button>
+            </div>
+        </div>
+
+
+        <div class="row row13 ">
+
+            <div class="   input-group  col-1">
+                <p class="border-bottom">1pm</p>
+
+            </div>
+            <div class="input-group col-10 form-group">
+                <textarea id=input1PM class="form-control custom-control textborder" rows="2" style="resize:none"
+                    name="13"></textarea>
+                <button class="  col-1 
+                    btn  "> <span style="font-size: 2.5em; color: #fcddb6 "><i class="far fa-list-alt"></i>
+                    </span>SAVE</button>
+            </div>
+        </div>
+
+
+        <div class="row row14 ">
+
+            <div class="  input-group  col-1">
+                <p class="border-bottom">2pm</p>
+
+            </div>
+            <div class="input-group col-10 form-group">
+                <textarea id=input2PM class="form-control custom-control textborder" rows="2" style="resize:none"
+                    name="14"></textarea>
+                <button class="  col-1 
+                    btn  "> <span style="font-size: 2.5em; color: #fcddb6 "><i class="far fa-list-alt"></i>
+                    </span>SAVE</button>
+            </div>
+        </div>
+
+
+        <div class="row row15 ">
+
+            <div class="   input-group  col-1">
+                <p class="border-bottom">3pm</p>
+
+            </div>
+            <div class="input-group col-10 form-group">
+                <textarea id=input3PM class="form-control custom-control textborder" rows="2" style="resize:none"
+                    name="15"></textarea>
+                <button class="  col-1 
+                    btn  "> <span style="font-size: 2.5em; color: #fcddb6 "><i class="far fa-list-alt"></i>
+                    </span>SAVE</button>
+            </div>
+        </div>
+
+
+        <div class="row row16 ">
+
+            <div class="  input-group  col-1">
+                <p class="border-bottom">4pm</p>
+
+            </div>
+            <div class="input-group col-10 form-group">
+                <textarea id=input4PM class="form-control custom-control textborder" rows="2" style="resize:none"
+                    name="16"></textarea>
+                <button class="  col-1 
+                    btn  "> <span style="font-size: 2.5em; color: #fcddb6 "><i class="far fa-list-alt"></i>
+                    </span>SAVE</button>
+            </div>
+        </div>
+
+        <div class="row row17 ">
+
+            <div class="  input-group  col-1">
+                <p class="border-bottom">5pm</p>
+
+            </div>
+            <div class="input-group    col-10 form-group">
+                <textarea id=input5PM class="textborder form-control custom-control" rows="2" style="resize:none"
+                    name="17"></textarea>
+                <button class="  col-1 
+                    btn  "> <span style="font-size: 2.5em; color: #fcddb6 "><i class="far fa-list-alt"></i>
+                    </span>SAVE</button>
+            </div>
+        </div>
+
+
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>   
+ <script type="text/Javascript" src="Library/main.js"></script>
+ <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+
+</body>
+</html>

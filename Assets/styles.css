@@ -1,0 +1,92 @@
+
+body {
+
+    background-color: snow;
+    
+ }
+
+.jumbotron {
+    background-image:url('joshua-bedford-grandcanyon.jpg');
+    background-size: cover;
+    height: 100%;
+    box-shadow: 2px black;
+ 
+
+}
+
+
+p{
+    font-family: 'Arial', sans-serif;   
+    text-align: center;
+    margin-top: 15px;
+   
+    
+}
+
+.plannerDiv{  
+    
+    border-radius: 25px;
+    box-shadow: 2px black;
+}
+
+
+
+#text9AM {
+
+    border-radius: 5px;
+  
+} 
+
+#text10AM {
+
+    border-radius: 5px;
+} 
+#text11AM {
+
+    border-radius: 5px;
+} 
+#text12AM {
+
+    border-radius: 5px;
+} 
+#text1PM {
+
+    border-radius: 5px;
+} 
+#text2PM {
+
+    border-radius: 5px;
+} 
+#text3PM {
+
+    border-radius: 5px;
+} 
+#text4PM {
+
+    border-radius: 5px;
+} 
+#text5PM {
+
+    border-radius: 5px;
+} 
+
+
+
+ .headerDiv {
+ background-image:url('joshua-bedford-grandcanyon.jpg');
+ color: white;
+ font-family: 'Arial', sans-serif;   
+
+}
+
+textarea p {
+-webkit-box-shadow: inset 2px 2px 2px 0px #757e81;
+-moz-box-shadow: inset 2px 2px 2px 0px #757e81;
+box-shadow: inset 2px 2px 2px 0px #757e81 ;
+
+
+}
+
+.bg-gray {
+    background-color: #93b6dada;
+}
