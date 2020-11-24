@@ -21,23 +21,23 @@ for (let i = 0; i< buttons.length; i ++) {
 
 /* Set Variables from Search Form*/
 
-function saveButton () {
-    var button = document.getElementById ("button");
-    button.addEventListener ("click",saveInput);
-}
+var inputForm = document.getElementById ("9AMform");
+var userInput = document.getElementById ("9AM");
+var formFeedback = document.getElementById ("feedback");
+var saveButton = document.getElementById ("save9AM");
 
-function saveInput () {
-    var userInput= document.getElementById ("9AM");
-    localStorage.setItem("9AM",userInput.value);
+/* Add event handler to save input when submitted*/ 
 
-}
+inputForm.addEventListener ("submit", event => {
+    event.preventDefault();
+    var input = userInput.value;
+    localStorage.setItem("9AM", input);
+    formFeedback.textContent = 'Saved!';
+    userInput.setAttribute ('disabled',true);
+    saveButton.setAttribute ('disabled',true);
+});
 
-function renderButton () {
-    var button = document.getElementById ("button");
-    button.addEventListener ("click", renderInput);
-}
- 
-function renderInput () {
-    var x = localStorage.getItem("9AM");
-    document.getElementById ("renderInput").innerHTML = x;
-}
+var savedInput = document.getElementById("9AM");
+var input = localStorage.getItem("9AM");
+
+savedInput.textContent = input;
